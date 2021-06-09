@@ -7,7 +7,7 @@ function comparison () {
   userInput = document.getElementById('input').value
   userInput = parseInt(userInput)
 
-  // This line checks if userInput is less than 0.//
+  // These lines checks the user's age and selects the right movie rating.//
   if (userInput >= 17) {
     document.getElementById('answer').innerHTML = 'You can see an R rated movie alone.'
   } else if (userInput >= 13) {
